@@ -2217,7 +2217,7 @@ input[type='checkbox'] {
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: #1C1822;
+  background-color: rgb(var(--color-background));
 }
 
 .header-wrapper--border-bottom {
@@ -2254,7 +2254,7 @@ input[type='checkbox'] {
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
     grid-template-columns: auto auto 1fr;
-    column-gap: 20%;
+    column-gap: 2rem;
   }
 
   .header--top-center {
