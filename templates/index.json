@@ -54,7 +54,7 @@
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading_size": "52px"
           }
         },
         "text": {
@@ -79,7 +79,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "heading_size": "h2",
+        "heading_size": "52px",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
