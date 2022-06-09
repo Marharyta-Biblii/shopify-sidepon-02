@@ -47,13 +47,13 @@
 
       :root {
         --font-body-family: 'Nunito SemiBold';
-        --font-body-style: {{ settings.type_body_font.style }};
-        --font-body-weight: 'Nunito Regular';
-        --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
+        --font-body-style: 'Nunito SemiBold';
+        --font-body-weight: 'Nunito SemiBold';
+        --font-body-weight-bold: 'Nunito SemiBold';
 
         --font-heading-family: 'Nunito SemiBold';
-        --font-heading-style: {{ settings.type_header_font.style }};
-        --font-heading-weight: {{ settings.type_header_font.weight }};
+        --font-heading-style: 'Nunito SemiBold';
+        --font-heading-weight: 'Nunito SemiBold';
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
